@@ -1,0 +1,70 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@keyframes movingBorder {
+  0% {
+    border-color: red green yellow red white;
+  }
+  25% {
+    border-color: green red green yellow white;
+  }
+  50% {
+    border-color: red yellow green green red white;
+  }
+  75% {
+    border-color: green red yellow red green white;
+  }
+  100% {
+    border-color: red green green white;
+  }
+}
+
+.animated-border {
+  animation: movingBorder 3s linear infinite;
+}
+
+@font-face {
+  font-family: "MyUniqueFont";
+  src: url("fonts/MyUniqueFont.woff2") format("woff2"),
+    url("fonts/MyUniqueFont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "CoolDisplayFont";
+  src: url("fonts/CoolDisplayFont.woff2") format("woff2"),
+    url("fonts/CoolDisplayFont.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+}
+
+/* Use MyUniqueFont for body text */
+body {
+  font-family: "MyUniqueFont", sans-serif;
+}
+
+/* Use CoolDisplayFont for headings */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "CoolDisplayFont", serif;
+}
+.my-img-style {
+  margin: 30px;
+  max-width: 250px;
+  filter: grayscale(100%);
+}
+.my-img-style:hover {
+  filter: grayscale(0);
+  /* margin: 10px; */
+}
+
+.my-btn:hover {
+  background: transparent;
+  box-shadow: 0 0 20px 5px #00fffc;
+}
+
