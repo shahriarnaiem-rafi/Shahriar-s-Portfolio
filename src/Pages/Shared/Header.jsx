@@ -130,8 +130,14 @@ const Header = () => {
             className="text-2xl md:text-2xl lg:text-4xl font-extrabold tracking-widest uppercase hover:opacity-90 transition duration-300"
             style={{ fontFamily: "'Raleway', sans-serif", fontWeight: 300 }}
           >
-            <span className="text-white">SHAH</span>
-            <span className="text-orange-500">RIAR</span>
+            <span className="my-logo">S</span>
+            <span className="my-logo">H</span>
+            <span className="my-logo">A</span>
+            <span className="my-logo">H</span>
+            <span className="my-logo">R</span>
+            <span className="my-logo">I</span>
+            <span className="my-logo">A</span>
+            <span className="my-logo">R</span>{" "}
           </a>
         </div>
         <div className="navbar-center hidden lg:flex">

@@ -16,11 +16,32 @@
   }
   100% {
     border-color: red green green white;
+    border-radius: 30%;
   }
 }
 
 .animated-border {
   animation: movingBorder 3s linear infinite;
+}
+
+/* logo animate */
+.my-logo {
+  display: inline-block;
+  transform-origin: 0% 70%;
+  transform-style: preserve-3d;
+  color: white;
+  animation: my-animate 2.6s infinite ;
+}
+@keyframes my-animate {
+  35% {
+    transform: rotateZ(300deg);
+  }
+  100% {
+    transform: rotateZ(360deg);
+  }
+}
+.my-logo:nth-child(even) {
+  color: red;
 }
 
 @font-face {
@@ -67,4 +88,3 @@ h6 {
   background: transparent;
   box-shadow: 0 0 20px 5px #00fffc;
 }
-

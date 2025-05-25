@@ -61,7 +61,7 @@ const Home = () => {
        */}
       <section className="skills py-12">
         <h3 className="section-title text-center text-3xl font-semibold text-gray-800 mb-6">
-          What I do
+           What I do
         </h3>
         <p className="section-description text-center text-lg text-gray-600 mb-8 max-w-4xl mx-auto">
           I specialize in building responsive and user-friendly websites and web

@@ -16,7 +16,7 @@ const Footer = () => {
                 href="https://github.com/shahriarnaiem-rafi"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-white hover:text-primary focus:text-primary transition-colors text-3xl"
+                className="text-white hover:text-red-500 focus:text-success transition-colors text-3xl"
               >
                 <i className="fab fa-github"></i>
               </a>
@@ -24,13 +24,13 @@ const Footer = () => {
                 href="https://www.linkedin.com/in/shahriar-naiem-ba26a7322"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="text-white hover:text-primary focus:text-primary transition-colors text-3xl"
+                className="text-white hover:text-red-500 focus:text-success transition-colors text-3xl"
               >
                 <i className="fab fa-linkedin"></i>
               </a>
               <a
                 href="mailto:shahriarnaiemrafi33@gmail.com"
-                className="text-white hover:text-primary focus:text-primary transition-colors text-3xl"
+                className="text-white hover:text-red-500 focus:text-success transition-colors text-3xl"
               >
                 <i className="fas fa-envelope"></i>
               </a>
